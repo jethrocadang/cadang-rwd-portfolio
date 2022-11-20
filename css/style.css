@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+
+.container{
+    width: 600px;
+    margin: auto;
+}
+
+nav {
+    border: 1px solid red;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+nav ul {
+    border: 1px solid black;
+    display: flex;
+    gap: 20px;
+
+}
