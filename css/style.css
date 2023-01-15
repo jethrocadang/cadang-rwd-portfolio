@@ -38,8 +38,8 @@ a:hover {
 }
 
 a:active {
-    text-decoration:dashed;
-    color:#74C7B8 !important;
+    text-decoration: dashed;
+    color: #74C7B8 !important;
 
 }
 
@@ -52,7 +52,6 @@ header {
 }
 
 .navbar {
-    /* border: 1px solid red; */
     border-bottom: 1px solid gray;
     display: flex;
     height: 10%;
@@ -61,17 +60,14 @@ header {
     position: sticky;
     top: 0;
 
-    /* overflow: hidden; */
 }
 
 .navbar h1 {
-    /* border: 1px solid black; */
     font-weight: 550;
     align-self: center;
 }
 
 .overlay {
-    /* border: 1px solid black; */
     display: flex;
     gap: 20px;
     align-self: center;
@@ -98,13 +94,11 @@ header {
 /*   - - - - - - - - - - homepage  - - - - - - - - - */
 
 .container {
-    /* border: 1px solid black; */
     height: 100vh;
     width: 100vw;
 }
 
 .home-container {
-    /* border: 1px solid blue; */
     height: 80%;
 
     display: grid;
@@ -114,14 +108,12 @@ header {
 }
 
 .firstbox {
-    /* border: 1px solid pink; */
     grid-row: 1/3;
     justify-self: center;
     align-self: center;
 
     display: grid;
     position: relative;
-    /* margin-right: 8%; */
 
 
 }
@@ -135,7 +127,6 @@ header {
 }
 
 .secondbox {
-    /* border: 1px solid red; */
     display: grid;
     align-content: end;
 }
@@ -146,7 +137,6 @@ header {
 }
 
 .thirdbox {
-    /* border: 1px solid orange; */
     display: flex;
     height: 100%;
     width: 100%;
@@ -191,7 +181,6 @@ header {
 }
 
 .thirdbox ul li a {
-    /* border: 1px solid blue; */
     align-self: center;
     justify-items: center;
     font-size: 1em;
@@ -206,7 +195,6 @@ header {
 /*  - - - - - - - - - - - - - about - - - -  - - - - -  */
 
 .about-container {
-    /* border: 1px solid green; */
     height: 80vh;
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
@@ -214,14 +202,12 @@ header {
 }
 
 .about-container h1 {
-    /* border: 1px solid red; */
     grid-column: 1/3;
     justify-self: center;
     align-self: center;
 }
 
 .about-container p {
-    /* border: 1px solid blue; */
     grid-row: 2/3;
     grid-column: 1/3;
     text-align: justify;
@@ -239,7 +225,6 @@ header {
 
 /*  - - - - - - - - - - - - - projects - - - - - - - -  */
 .proj-container {
-    /* border: 1px solid black; */
     position: relative;
     height: 120vh;
     display: grid;
@@ -256,7 +241,6 @@ header {
 }
 
 .firstproj {
-    /* border: 1px solid rebeccapurple; */
     height: 100%;
     grid-row: 2/3;
     grid-column: 1/3;
@@ -269,7 +253,6 @@ header {
 }
 
 .proj-h2 {
-    /* border: 1px solid green; */
     grid-row: 1/2;
     grid-column: 1/2;
     font-size: 1.5em;
@@ -279,17 +262,14 @@ header {
 }
 
 .proj-p {
-    /* border: 1px solid red; */
     grid-row: 2/3;
     grid-column: 1/2;
     font-size: 1em;
     text-align: justify;
     align-self: center;
-    /* position: absolute; */
 }
 
 .proj-img {
-    /* border: 1px solid orange; */
     width: 70%;
     grid-column: 2/3;
     grid-row: 1/3;
@@ -300,7 +280,6 @@ header {
 
 
 .secondproj {
-    /* border:1px solid red; */
     height: 100%;
     grid-row: 3/4;
     grid-column: 1/3;
@@ -310,7 +289,6 @@ header {
 }
 
 .thirdproj {
-    /* border:1px solid blue; */
     height: 100%;
     grid-column: 1/3;
     grid-row: 4/5;
@@ -346,7 +324,6 @@ header {
 }
 
 .xpbox {
-    /* border: 1px solid green; */
     grid-column: 2/4;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -377,7 +354,6 @@ header {
 }
 
 .secondxp {
-    /* border: 1px solid blue; */
     border-bottom: 1px solid gray;
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
@@ -387,7 +363,6 @@ header {
 }
 
 .secondxp h2 {
-    /* border: 1px solid black; */
     grid-row: 1/5;
     grid-column: 1/2;
     justify-self: center;
@@ -396,7 +371,6 @@ header {
 }
 
 .secondxp>p:nth-child(2) {
-    /* border: 1px solid green; */
     grid-column: 2/3;
     grid-row: 1/2;
     justify-self: flex-end;
@@ -404,7 +378,6 @@ header {
 }
 
 .secondxp>p:nth-child(3) {
-    /* border: 1px solid blue; */
     margin-right: 10%;
     grid-column: 2/3;
     grid-row: 2/3;
@@ -412,26 +385,20 @@ header {
 }
 
 
-
-
-
-/* Contact */
+/* - - - - - - - - - Contact - - - - - - - - */
 .contacts-container {
-    /* border: 1px solid black; */
     height: 80vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .leftcontact {
-    /* border: 1px solid green; */
     justify-self: center;
     align-self: center;
 
 }
 
 .rightcontact {
-    /* border: 1px solid red; */
     height: 100%;
     display: grid;
 
@@ -441,7 +408,6 @@ header {
 }
 
 .rightcontact form {
-    /* border: 1px solid blue; */
     align-self: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -450,7 +416,6 @@ header {
 }
 
 .rightcontact div {
-    /* border: 1px solid blue; */
     display: grid;
     grid-template-rows: 1fr 1fr;
     width: 80%;
@@ -502,7 +467,6 @@ header {
 /* - - - - - - - - - - - - footer - - - - - - - - - -  */
 
 .footer {
-    /* border: 1px solid green; */
     position: relative;
     top: 0;
     height: 100%;
@@ -517,7 +481,7 @@ header {
 
 
 @media only screen and (max-width: 541px) {
-    /* navbar */
+    /* - - - - - - - - navbar- - - - - - - -  */
 
     .overlay {
         height: 0%;
@@ -572,13 +536,11 @@ header {
 
 
     .container {
-        /* border: 1px solid black; */
         height: 100%;
         width: 100vw;
     }
 
     .home-container {
-        /* border: 1px solid blue; */
         position: relative;
         margin: 5% 0 20% 0;
         height: 100%;
@@ -588,7 +550,6 @@ header {
     }
 
     .firstbox {
-        /* border: 1px solid pink; */
         grid-row: 3/4;
         grid-column: 1/3;
         justify-self: center;
@@ -610,7 +571,6 @@ header {
     }
 
     .secondbox {
-        /* border: 1px solid red; */
         display: grid;
         height: 80%;
         grid-row: 1/2;
@@ -629,7 +589,6 @@ header {
     }
 
     .thirdbox ul {
-        /* border: 1px solid black; */
         align-self: flex-start;
         justify-self: center;
         display: grid;
@@ -664,7 +623,6 @@ header {
     }
 
     .thirdbox ul li a {
-        /* border: 1px solid blue; */
         align-self: center;
         justify-items: center;
         font-size: 0.7em;
@@ -674,7 +632,6 @@ header {
 
     /*  - - - - - - - -- about- - - - - - - - - */
     .about-container {
-        /* border: 1px solid green; */
         height: 100%;
         display: grid;
         grid-template-columns: 1fr;
@@ -682,7 +639,6 @@ header {
     }
 
     .about-container h1 {
-        /* border: 1px solid red; */
         grid-column: 1/2;
         grid-row: 1/2;
         justify-self: center;
@@ -690,7 +646,6 @@ header {
     }
 
     .about-container p {
-        /* border: 1px solid blue; */
         grid-row: 2/3;
         grid-column: 1/2;
         text-align: justify;
@@ -805,7 +760,6 @@ header {
     /*  - - - - - - - - - - - - - projects - - - - - - - -  */
 
     .proj-container {
-        /* border: 1px solid black; */
         height: 200%;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -821,20 +775,17 @@ header {
     }
 
     .firstproj {
-        /* border: 1px solid rebeccapurple; */
         height: 100%;
         grid-row: 2/3;
         grid-column: 1/3;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 0.2fr 0.7fr 1fr;
-        /* position: relative; */
 
 
     }
 
     .proj-h2 {
-        /* border: 1px solid green; */
         grid-row: 1/2;
         grid-column: 1/3;
         font-size: 1.5em;
@@ -844,17 +795,14 @@ header {
     }
 
     .proj-p {
-        /* border: 1px solid red; */
         grid-row: 2/3;
         grid-column: 1/3;
         font-size: 1em;
         text-align: justify;
         align-self: center;
-        /* position: absolute; */
     }
 
     .proj-img {
-        /* border: 1px solid orange; */
         width: 100%;
         grid-column: 1/3;
         grid-row: 3/4;
@@ -865,7 +813,6 @@ header {
 
 
     .secondproj {
-        /* border:1px solid red; */
         height: 100%;
         grid-row: 3/4;
         grid-column: 1/3;
@@ -875,7 +822,6 @@ header {
     }
 
     .thirdproj {
-        /* border:1px solid blue; */
         height: 100%;
         grid-column: 1/3;
         grid-row: 4/5;
@@ -894,7 +840,6 @@ header {
     }
 
     .leftcontact {
-        /* border: 1px solid green; */
         justify-self: flex-start;
         align-self: center;
         grid-row: 1/2;
@@ -903,7 +848,6 @@ header {
     }
 
     .rightcontact {
-        /* border: 1px solid red; */
         height: 100%;
         grid-row: 2/3;
         grid-column: 1/3;
@@ -915,7 +859,6 @@ header {
     }
 
     .rightcontact form {
-        /* border: 1px solid blue; */
         align-self: center;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -924,7 +867,6 @@ header {
     }
 
     .rightcontact div {
-        /* border: 1px solid blue; */
         display: grid;
         grid-template-rows: 1fr 1fr;
         width: 100%;
@@ -971,9 +913,8 @@ header {
 
     }
 
-    /* footer */
+    /* - - - - - - -  footer - - - - - - - */
     .footer {
-        /* border: 1px solid green; */
         margin-top: 5%;
         border-top: 1px solid gray;
         display: grid;
@@ -985,5 +926,404 @@ header {
         margin-top: 5%;
     }
 
+
+}
+
+
+@media only screen and (min-width: 542px) and (max-width: 820px) {
+    /* - - - - - - - - - - homepage  - - - - - - - - - */
+
+    .container {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .home-container {
+        height: 80%;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 10px;
+    }
+
+    .firstbox {
+        grid-row: 1/3;
+        justify-self: center;
+        align-self: center;
+
+        display: grid;
+        position: relative;
+
+
+    }
+
+    .firstbox img {
+        width: 90%;
+        border-radius: 50%;
+        justify-self: end;
+        align-self: center;
+        border: 1px solid black;
+    }
+
+    .secondbox {
+        display: grid;
+        align-content: end;
+    }
+
+    .secondbox h1 {
+        font-weight: 700;
+        line-height: 2.5em;
+    }
+
+    .thirdbox {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    .thirdbox ul {
+        position: absolute;
+        align-self: flex-start;
+        display: flex;
+        column-gap: 10px;
+        margin-top: 2em;
+        margin-left: -2em;
+
+    }
+
+    .thirdbox ul li {
+        border: 1px solid black;
+        align-self: center;
+        height: 5em;
+        width: 5em;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .thirdbox ul li:first-child {
+        background-color: #EF4F4F;
+    }
+
+    .thirdbox ul li:nth-child(2) {
+        background-color: #EE9595;
+    }
+
+    .thirdbox ul li:nth-child(3) {
+        background-color: #FFCDA3;
+    }
+
+    .thirdbox ul li:nth-child(4) {
+        background-color: #74C7B8;
+
+    }
+
+    .thirdbox ul li a {
+        align-self: center;
+        justify-items: center;
+        font-size: 0.8em;
+        font-weight: 600;
+
+    }
+
+    /*  - - - - - - - -- about- - - - - - - - - */
+    .about-container {
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 30% 60%;
+    }
+
+    .about-container h1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .about-container p {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        text-align: justify;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .about-container img {
+        width: 60%;
+        grid-row: 3/4;
+        grid-column: 1/4;
+        margin-bottom: 20%;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /*  - - - - - -- - - - -  - - - experience  - - - - - - - */
+    .xp-container {
+        position: relative;
+        margin-top: 5%;
+        height: 100%;
+        display: grid;
+        row-gap: 300px;
+        grid-template-rows: 20% 30%;
+
+    }
+
+    .firstxp {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10%;
+        row-gap: 0;
+        height: 100%;
+        border-top: 1px solid grey;
+        padding-top: 20px;
+
+    }
+
+    .firstxp h2 {
+        grid-row: 1/2;
+        grid-column: 1/2;
+        justify-self: flex-start;
+        font-weight: 550;
+
+        margin: 0 !important;
+    }
+
+    .xpbox {
+        grid-column: 1/4;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+
+    }
+
+
+
+    .xpbox-p {
+        grid-column: 1/3;
+        align-self: flex-start;
+        text-align: justify;
+        margin: 0;
+        height: 100px;
+    }
+
+    .xp-date {
+        grid-column: 1/3;
+        justify-self: flex-start;
+        align-self: flex-end;
+        margin: 0;
+    }
+
+
+    .xp-h5 {
+        font-weight: 550;
+        align-self: flex-start;
+        margin: 0;
+        grid-column: 1/3;
+    }
+
+
+    .secondxp {
+        border-bottom: none;
+        display: grid;
+        grid-template-rows: 0.2fr 1fr 0.7fr;
+        height: 100%;
+        row-gap: 35px;
+    }
+
+    .secondxp h2 {
+        grid-row: 1/2;
+        grid-column: 1/4;
+        justify-self: flex-start;
+        font-weight: 550;
+        margin: 0;
+    }
+
+    .secondxp>p:nth-child(2) {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        justify-self: flex-end;
+        margin-right: 10%;
+    }
+
+    .secondxp>p:nth-child(3) {
+        margin-right: 10%;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        justify-self: flex-end;
+    }
+
+    /*  - - - - - - - - - - - - - projects - - - - - - - -  */
+
+    .proj-container {
+        /* border: 1px solid black; */
+        height: 200%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 4% 32% 32% 32%;
+        margin: 70px 0;
+        row-gap: 2%;
+    }
+
+    .proj-container h1 {
+        grid-row: 1/2;
+        grid-column: 1/3;
+        align-self: flex-end;
+    }
+
+    .firstproj {
+        height: 100%;
+        grid-row: 2/3;
+        grid-column: 1/3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.2fr 0.7fr 1fr;
+
+
+    }
+
+    .proj-h2 {
+        grid-row: 1/2;
+        grid-column: 1/3;
+        font-size: 1.5em;
+        justify-self: flex-start;
+        align-self: flex-end;
+
+    }
+
+    .proj-p {
+        grid-row: 2/3;
+        grid-column: 1/3;
+        font-size: 1em;
+        text-align: justify;
+        align-self: center;
+    }
+
+    .proj-img {
+        width: 100%;
+        grid-column: 1/3;
+        grid-row: 3/4;
+        justify-self: center;
+        align-self: center;
+    }
+
+
+
+    .secondproj {
+        height: 100%;
+        grid-row: 3/4;
+        grid-column: 1/3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.2fr 0.7fr 1fr;
+    }
+
+    .thirdproj {
+        height: 100%;
+        grid-column: 1/3;
+        grid-row: 4/5;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.2fr 0.7fr 1fr;
+    }
+
+    /* - - - - - - - - Contact- - - - - - - - - -  */
+    .contacts-container {
+        margin-top: 40px;
+        height: 80%;
+        display: grid;
+        grid-template-rows: 0.3fr 1fr;
+
+    }
+
+    .leftcontact {
+        justify-self: flex-start;
+        align-self: center;
+        grid-row: 1/2;
+        grid-column: 1/3;
+
+    }
+
+    .rightcontact {
+        height: 100%;
+        grid-row: 2/3;
+        grid-column: 1/3;
+        display: grid;
+
+        align-self: center;
+        align-content: center;
+
+    }
+
+    .rightcontact form {
+        align-self: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 10% 10% 10% 30%;
+        align-content: center;
+    }
+
+    .rightcontact div {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .name {
+        grid-row: 1/2;
+        grid-column: 1/3;
+    }
+
+    .email {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    .subject {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+    .message {
+        width: 100% !important;
+        grid-column: 1/3;
+        grid-row: 4/5;
+        margin-top: 10px;
+
+    }
+
+    .message textarea {
+        margin-top: -70px;
+        height: 150%;
+    }
+
+    .rightcontact button {
+
+        margin: 20% 0 0 0;
+        border-radius: 50%;
+        width: 7em;
+        height: 7em;
+        align-self: center;
+        background-color: #FFCDA3;
+        border: 1px solid black;
+        font-weight: 550;
+
+    }
+
+    /*- - - - - - - - - - footer- - - - - - -  */
+    .footer {
+        margin-top: 5%;
+        border-top: 1px solid gray;
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+    .footer-items {
+        margin-top: 5%;
+    }
 
 }
